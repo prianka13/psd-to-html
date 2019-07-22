@@ -490,8 +490,8 @@ footer {
 /* .text position change end */
 .blog-grid .grid1 .img-arrow .arrow {
   position: relative;
-  top: -148px;
-  left: 148px;
+  top: -110px;
+  left: 92px;
 }
 
 .different-background {
@@ -532,11 +532,15 @@ a.a1 {
   text-align: center;
   display: grid;
   justify-items: center;
-  color: white;
   font-family: Roboto Thin;
   font-size: 14px;
+  padding: 10px;
 }
 
+.different-background>
+a.a1{
+  color: white;
+}
 .image-text {
   /* padding-top: 10px; */
   padding-bottom: 10px;
@@ -547,7 +551,7 @@ a.a1 {
 }
 
 .black-blue .black-p>p {
-  padding: 20px;
+  padding: 10px;
   font-family: Roboto Light;
   font-size: 14px;
 }
@@ -599,11 +603,6 @@ a.a1 {
   font-size: 21px;
 }
 
-.older-post {
-  display: grid;
-  justify-items: center;
-  /* align-self: center; */
-}
 
 .older-post>button {
   background-color: #1AB5B3;
@@ -611,7 +610,10 @@ a.a1 {
   width: 150px;
   text-transform: uppercase;
   position: relative;
-  margin-top: 100%;
+  /* margin-top: 100%; */
+  left: 230%;
+  /* top: 0; */
+  bottom: 0;
 }
 
 .black-blue-quote {
